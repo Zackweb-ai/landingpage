@@ -168,6 +168,22 @@ display: none;
 .layout-mobile {
   display: none;
 }
+.pictures-mobile {
+  display: none;
+}
+.footer-links {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-links a {
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
 @media (max-width: 430px) {
 
   .header-mobile {
@@ -280,15 +296,19 @@ display: none;
     width: 97%;
   }
   .footer-links{
-    display: flex;
+    display: flex !important;
     justify-content: space-around !important;
+    width: 100% !important;
   }
   .footer-links a{
     text-decoration: none;
     font-size: 24px !important;
-    font-weight: 600;
+    font-weight: 600 !important;
   }
   .pr{
     padding-right: 25px;
+  }
+  .pictures-mobile {
+    display: block;
   }
 }

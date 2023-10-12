@@ -24,7 +24,7 @@ const Pictures = () => {
             <img className='image w-100' src={sugar} alt="" />
         </div>
     </div>
-    <div className='page-width w-90'>
+    <div className='pictures-mobile w-90'>
         <div className="row">
         <div className="col-6 p-0">
             <img className='image-mobi w-100' src={milkMob} alt="" />

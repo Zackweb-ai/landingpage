@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer text-center bg-green d-flex justify-content-center align-items-center flex-column pb-5">
       <p className="title-footer pt-5 pb-3">sunnyside</p>
     <div className="text-center d-flex justify-content-center flex-column">
-      <div className="footer-links mb-4">
+      <div className="footer-links  mb-4">
         <a className="color-change pr" href="#">About</a>
         <a className="color-change pr" href="#">Services</a>
         <a className="color-change" href="#">Projects</a>
